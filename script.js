@@ -56,3 +56,6 @@ function createTodo(todoContainer){
     })
 }
 
+clearTodo.addEventListener("click",()=>{
+    todoContainer.innerHTML = ""
+})
