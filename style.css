@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    margin: 50px;
+    width: 100%;
+    display: flex;
+}
+header{
+    margin: 50px;
+    width: 100%;
+    background-color: #62ffcbad;
+    text-align: center;
+    padding: 10px;
+}
+header h1{
+    font-size: x-large;
+    color: #484848;
+}
+.todoInput{
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+form > input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+    border: 1px solid #000;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.btns>button{
+    padding: 8px 15px;
+    border: 1px solid #484848;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btns button:first-child{
+    background-color: rgba(90, 255, 90, 0.582);
+}
+.btns button:last-child{
+    background-color: rgba(250, 80, 80, 0.705);
+}
+
+.todoOutput{
+    width:80%;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+.innerHeading{
+    text-align: center;
+    background-color: rgba(64, 124, 255, 0.733);
+    border-radius: 5px;
+    color: #fff;
+}
+.innerHeading h2{
+    font-size: medium;
+    padding: 10px;
+}
+
+/* todo styling */
+
+.todos{
+    width: 100%;
+}
+
+.todos>input{
+    width: 60%;
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    background-color: rgb(156, 215, 255);
+    outline: none;
+    margin: 5px;
+}
+span{
+    border:1px solid #484848;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
